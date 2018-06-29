@@ -18,10 +18,10 @@ import java.sql.*;
 @WebServlet("/callBack")
 public class CallBackServlet extends HttpServlet {
 
-    private String dbUrl = "jdbc:mysql://rm-2ze38ihnc8ll25dxmo.mysql.rds.aliyuncs.com:3306/jhdd_database";
+    private String dbUrl = "jdbc:mysql://******:3306/jhdd_database";
     private String driverName = "com.mysql.jdbc.Driver";
     private String dbUserName = "root";
-    private String dbPassword = "Dhdd_1009";
+    private String dbPassword = "pwd";
     private Connection conn = null;
     private PreparedStatement ps = null;
     private ResultSet rs = null;
